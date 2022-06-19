@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=R2 Old Footprint=R1/4W New Footprint=RES_SMD_0805
+Added Room: Name=[03] - LED7SEG
+Added Room: Name=[05] - POWER
