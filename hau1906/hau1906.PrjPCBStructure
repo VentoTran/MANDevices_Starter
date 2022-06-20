@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=hau1906.SchDoc
+Record=SheetSymbol|SourceDocument=hau1906.SchDoc|Designator=02|SchDesignator=02|FileName=[02] MCU.SchDoc|SymbolType=Normal|RawFileName=[02] MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=hau1906.SchDoc|Designator=03|SchDesignator=03|FileName=[03] LED7SEG.SchDoc|SymbolType=Normal|RawFileName=[03] LED7SEG.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=hau1906.SchDoc|Designator=04|SchDesignator=04|FileName=[04] Button.SchDoc|SymbolType=Normal|RawFileName=[04] Button.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=hau1906.SchDoc|Designator=05|SchDesignator=05|FileName=[05] Power.SchDoc|SymbolType=Normal|RawFileName=[05] Power.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
