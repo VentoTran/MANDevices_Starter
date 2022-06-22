@@ -1,0 +1,14 @@
+Added Component: Designator=D1(DIO-SMD-123)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Diode c?m 1N5408"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=+5 Pin=D1-2
+Added Class: Name=1
+Added Class: Name=2
+Added Class: Name=3
+Added Member To Class: ClassName=Designator Member=Component D1 1N5822
+Change Room Name: Old Name=Designator_3 New Name=1
+Change Room Scope: Old Scope=InComponentClass('Designator') New Scope=InComponentClass('1')
+Change Room Name: Old Name=Designator_2 New Name=3
+Change Room Scope: Old Scope=InComponentClass('Designator') New Scope=InComponentClass('3')
+Added Room: Name=2

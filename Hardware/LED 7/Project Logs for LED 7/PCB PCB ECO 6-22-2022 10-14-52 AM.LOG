@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=+5 Pin=D1-2
+Removed Pin From Net: NetName=+5 Pin=L2-1
+Removed Pin From Net: NetName=+5 Pin=U1-2
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=L2-1
+Added Pin To Net: NetName=NetD1_2 Pin=U1-2
+Added Net: Name=NetD1_2
+Added Room: Name=1
+Added Room: Name=2
+Added Room: Name=3
+Added Room: Name=Designator

@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=[01] Schematic.SchDoc
+Record=SheetSymbol|SourceDocument=[01] Schematic.SchDoc|Designator=1|SchDesignator=1|FileName=[02] LED 7.SchDoc|SymbolType=Normal|RawFileName=[02] LED 7.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=[01] Schematic.SchDoc|Designator=2|SchDesignator=2|FileName=[03] MCU.SchDoc|SymbolType=Normal|RawFileName=[03] MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=[01] Schematic.SchDoc|Designator=3|SchDesignator=3|FileName=[04] BUTTON.SchDoc|SymbolType=Normal|RawFileName=[04] BUTTON.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=[01] Schematic.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=[05] POWER.SchDoc|SymbolType=Normal|RawFileName=[05] POWER.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
