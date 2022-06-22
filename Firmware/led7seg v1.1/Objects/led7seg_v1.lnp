@@ -1,0 +1,4 @@
+".\Objects\main.obj",
+".\Objects\Delay.obj" 
+TO ".\Objects\led7seg_v1.1" 
+PRINT(".\Listings\led7seg_v1.m51")
