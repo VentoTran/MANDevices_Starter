@@ -1,0 +1,84 @@
+C51 COMPILER V9.60.0.0   MAIN                                                              06/23/2022 12:00:11 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: D:\keilc_v5\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\mai
+                    -n.lst) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          #include <REGX51.H>
+   2          unsigned char so[11]= {0xC0,0xF9,0xA4,0xB0,0x99,0x92,0x82,0xF8,0x80,0x90};
+   3          #define but1 P3_0
+   4          #define but2 P3_1
+   5          int k, dem1, dem2;
+   6          void delay(unsigned int time) // time ms
+   7          {
+   8   1        unsigned int i, j;
+   9   1        for(i=0; i< time;i++)
+  10   1        {
+  11   2          for(j=0;j<125;j++);  //VDK thuc hien dc 1ms = lap trong 125 lan = 8 CK may; 1ms 1MC=1us 12Mhz
+  12   2        }
+  13   1      }
+  14          void tangdan(int giatri1)
+  15          {
+  16   1        for(k=0;k<10;k++)
+  17   1        {
+  18   2          P2=so[giatri1];
+  19   2          delay(50);
+  20   2        }
+  21   1      }
+  22          void giamdan(int giatri2)
+  23          {
+  24   1        for(k=9;k>=0;k--)
+  25   1        {
+  26   2          P2=so[giatri2];
+  27   2          delay(50);
+  28   2        }
+  29   1      }
+  30          void main()
+  31          {
+  32   1        P2=0xFF;
+  33   1        dem1=0;
+  34   1        dem2=9;
+  35   1        while(1)
+  36   1        {
+  37   2          while(but1==0)
+  38   2          {
+  39   3            tangdan(dem1);
+  40   3            dem1++;
+  41   3          if(dem1>9) dem1=0;
+  42   3          while(but1==0)
+  43   3           {
+  44   4            tangdan(dem1);
+  45   4           }
+  46   3          }
+  47   2          while(but2==0)
+  48   2          {
+  49   3            giamdan(dem2);
+  50   3            dem2--;
+  51   3          if(dem2<0) dem2=9;
+  52   3          while(but2==0)
+  53   3           {
+  54   4            giamdan(dem2);
+C51 COMPILER V9.60.0.0   MAIN                                                              06/23/2022 12:00:11 PAGE 2   
+
+  55   4           }
+  56   3          }
+  57   2      }
+  58   1      } 
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    212    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     17    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
