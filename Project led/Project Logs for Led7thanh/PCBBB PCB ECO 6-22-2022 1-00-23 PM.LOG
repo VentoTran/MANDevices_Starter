@@ -1,0 +1,12 @@
+Added Member To Class: ClassName=2 Member=Component C1 22pF
+Added Member To Class: ClassName=2 Member=Component IC1 AT89C52
+Added Member To Class: ClassName=3 Member=Component L1 Led 7 Seg 4 digit - Anode
+Added Member To Class: ClassName=3 Member=Component M1 MAX7219ENG
+Added Member To Class: ClassName=2 Member=Component R1 10k
+Added Member To Class: ClassName=3 Member=Component R2 10k
+Added Member To Class: ClassName=2 Member=Component SW1 SW-2P-S
+Added Member To Class: ClassName=2 Member=Component X1 12Mhz
+Added Room: Name=2
+Added Room: Name=3
+Added Room: Name=4
+Added Room: Name=5

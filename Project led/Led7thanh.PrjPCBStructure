@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=Led7segsheet.SchDoc
+Record=SheetSymbol|SourceDocument=Led7segsheet.SchDoc|Designator=2|SchDesignator=2|FileName=[02]-MCU.SchDoc|SymbolType=Normal|RawFileName=[02]-MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Led7segsheet.SchDoc|Designator=3|SchDesignator=3|FileName=[03]-LED7SEG.SchDoc|SymbolType=Normal|RawFileName=[03]-LED7SEG.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Led7segsheet.SchDoc|Designator=4|SchDesignator=4|FileName=[04]-BUTTON.SchDoc|SymbolType=Normal|RawFileName=[04]-BUTTON.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Led7segsheet.SchDoc|Designator=5|SchDesignator=5|FileName=[05]-POWER.SchDoc|SymbolType=Normal|RawFileName=[05]-POWER.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

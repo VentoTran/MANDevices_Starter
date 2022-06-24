@@ -1,0 +1,50 @@
+Added Component: Designator=Cin1(C3MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "103"; VariantName = "[No Variations]"
+Added Component: Designator=Cout1(C3MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "103"; VariantName = "[No Variations]"
+Added Component: Designator=D1(1N4148_SMD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Diode c?m 1N5408"; VariantName = "[No Variations]"
+Added Component: Designator=JDC1(DC-IN)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Jac DC"; VariantName = "[No Variations]"
+Added Component: Designator=L2(L/0.4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "150 mH"; VariantName = "[No Variations]"
+Added Component: Designator=U1(LM1117-Hole)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Category"; Value = "IC-Power"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Input Voltage"; Value = "12 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Output Current"; Value = "3 (6.0 peak) A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Output Voltage"; Value = "mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Input Voltage"; Value = "mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Output Voltage"; Value = "mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerICTypes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Status"; Value = "Unreleased"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage"; Value = "mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range"; Value = "-40 to +125 degC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=Cin1-2
+Added Pin To Net: NetName=GND Pin=Cout1-1
+Added Pin To Net: NetName=+5 Pin=Cout1-2
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=GND Pin=JDC1-2
+Added Pin To Net: NetName=GND Pin=JDC1-3
+Added Pin To Net: NetName=+5 Pin=L2-2
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=NetCin1_1 Pin=Cin1-1
+Added Pin To Net: NetName=NetCin1_1 Pin=JDC1-1
+Added Pin To Net: NetName=NetCin1_1 Pin=U1-1
+Added Net: Name=NetCin1_1
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=L2-1
+Added Pin To Net: NetName=NetD1_1 Pin=U1-2
+Added Pin To Net: NetName=NetD1_1 Pin=U1-2
+Added Net: Name=NetD1_1
+Added Class: Name=5
+Added Room: Name=2
+Added Room: Name=3
+Added Room: Name=4
+Added Room: Name=5

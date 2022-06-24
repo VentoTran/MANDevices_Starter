@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=D1 Old Footprint=1N4148_SMD New Footprint=SMA
+Change Component Footprint: Designator=Cin1 Old Footprint=C3MM New Footprint=CAP_D10
+Change Component Footprint: Designator=Cout1 Old Footprint=C3MM New Footprint=CAP_D10
+Change Component Footprint: Designator=L2 Old Footprint=L/0.4 New Footprint=L-SMD-M-7.3x4.5

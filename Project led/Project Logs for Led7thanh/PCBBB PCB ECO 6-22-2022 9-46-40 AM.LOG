@@ -1,0 +1,38 @@
+Removed Member From Class: ClassName=2 Member=R?
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=C? NewDesignator=C2
+Change Component Designator: OldDesignator=IC? NewDesignator=IC1
+Change Component Designator: OldDesignator=L? NewDesignator=L1
+Change Component Designator: OldDesignator=M? NewDesignator=M1
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=SW? NewDesignator=SW1
+Change Component Designator: OldDesignator=X? NewDesignator=X1
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC1_2
+Change Net Name : Old Net Name=NetIC?_1 New Net Name=NetIC1_1
+Change Net Name : Old Net Name=NetIC?_2 New Net Name=NetIC1_2
+Change Net Name : Old Net Name=NetIC?_3 New Net Name=NetIC1_3
+Change Net Name : Old Net Name=NetIC?_4 New Net Name=NetIC1_4
+Change Net Name : Old Net Name=NetIC?_5 New Net Name=NetIC1_5
+Change Net Name : Old Net Name=NetIC?_6 New Net Name=NetIC1_6
+Change Net Name : Old Net Name=NetIC?_7 New Net Name=NetIC1_7
+Change Net Name : Old Net Name=NetIC?_8 New Net Name=NetIC1_8
+Change Net Name : Old Net Name=NetIC?_9 New Net Name=NetIC1_9
+Change Net Name : Old Net Name=NetIC?_22 New Net Name=NetIC1_22
+Change Net Name : Old Net Name=NetIC?_23 New Net Name=NetIC1_23
+Change Net Name : Old Net Name=NetIC?_24 New Net Name=NetIC1_24
+Change Net Name : Old Net Name=NetL?_1 New Net Name=NetL1_1
+Change Net Name : Old Net Name=NetL?_2 New Net Name=NetL1_2
+Change Net Name : Old Net Name=NetL?_3 New Net Name=NetL1_3
+Change Net Name : Old Net Name=NetL?_4 New Net Name=NetL1_4
+Change Net Name : Old Net Name=NetL?_5 New Net Name=NetL1_5
+Change Net Name : Old Net Name=NetL?_9 New Net Name=NetL1_9
+Change Net Name : Old Net Name=NetL?_12 New Net Name=NetL1_12
+Change Net Name : Old Net Name=NetL?_13 New Net Name=NetL1_13
+Change Net Name : Old Net Name=NetM?_18 New Net Name=NetM1_18
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=IC1-19
+Added Pin To Net: NetName=NetC2_2 Pin=X1-1
+Added Net: Name=NetC2_2
+Added Member To Class: ClassName=2 Member=Component C2 22pF
+Added Member To Class: ClassName=2 Member=Component R1 10k

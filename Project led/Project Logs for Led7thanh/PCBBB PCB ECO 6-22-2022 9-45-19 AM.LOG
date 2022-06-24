@@ -1,0 +1,219 @@
+Removed Pin From Net: NetName=GND Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=C2-1
+Removed Pin From Net: NetName=NetIC1_1 Pin=IC1-1
+Removed Pin From Net: NetName=NetIC1_2 Pin=IC1-2
+Removed Pin From Net: NetName=NetIC1_3 Pin=IC1-3
+Removed Pin From Net: NetName=NetIC1_4 Pin=IC1-4
+Removed Pin From Net: NetName=NetIC1_5 Pin=IC1-5
+Removed Pin From Net: NetName=NetIC1_6 Pin=IC1-6
+Removed Pin From Net: NetName=NetIC1_7 Pin=IC1-7
+Removed Pin From Net: NetName=NetIC1_8 Pin=IC1-8
+Removed Pin From Net: NetName=GND Pin=IC1-20
+Removed Pin From Net: NetName=+5 Pin=IC1-31
+Removed Pin From Net: NetName=+5 Pin=IC1-40
+Removed Pin From Net: NetName=D3 Pin=L1-6
+Removed Pin From Net: NetName=+5 Pin=L1-7
+Removed Pin From Net: NetName=GND Pin=L1-8
+Removed Pin From Net: NetName=D2 Pin=L1-10
+Removed Pin From Net: NetName=D1 Pin=L1-11
+Removed Pin From Net: NetName=D0 Pin=L1-14
+Removed Pin From Net: NetName=D0 Pin=M1-2
+Removed Pin From Net: NetName=GND Pin=M1-4
+Removed Pin From Net: NetName=D2 Pin=M1-6
+Removed Pin From Net: NetName=D3 Pin=M1-7
+Removed Pin From Net: NetName=GND Pin=M1-9
+Removed Pin From Net: NetName=D1 Pin=M1-11
+Removed Pin From Net: NetName=GND Pin=R1-2
+Removed Pin From Net: NetName=+5 Pin=R2-2
+Removed Pin From Net: NetName=+5 Pin=SW1-2
+Removed Member From Class: ClassName=2 Member=C1
+Removed Member From Class: ClassName=2 Member=C2
+Removed Member From Class: ClassName=2 Member=IC1
+Removed Member From Class: ClassName=3 Member=L1
+Removed Member From Class: ClassName=3 Member=M1
+Removed Member From Class: ClassName=2 Member=R1
+Removed Member From Class: ClassName=3 Member=R2
+Removed Member From Class: ClassName=2 Member=SW1
+Removed Member From Class: ClassName=2 Member=X1
+Added Component: Designator=C?(CAP_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "103"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAP_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "103"; VariantName = "[No Variations]"
+Added Component: Designator=Cin1(C3MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "103"; VariantName = "[No Variations]"
+Added Component: Designator=Cout1(C3MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "103"; VariantName = "[No Variations]"
+Added Component: Designator=D1(1N4148_SMD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Diode c?m 1N5408"; VariantName = "[No Variations]"
+Added Component: Designator=IC?(DIP40/W0.6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "AT89C52"; VariantName = "[No Variations]"
+Added Component: Designator=JDC1(DC-IN)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Jac DC"; VariantName = "[No Variations]"
+Added Component: Designator=L2(L/0.4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "150 mH"; VariantName = "[No Variations]"
+Added Component: Designator=L?(LED7SEG-4-0.56-RG)
+Add component. Clean all parameters for all variants
+Added Component: Designator=M?(DIP24/W0.3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-001-AF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.maxim-ic.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://pdfserv.maxim-ic.com/en/ds/MAX7219-MAX7221.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jul-1997"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Component Body Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "DIP, 24-Pin, Row Spacing 7.62 mm, Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "NG24A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "1997"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "16-Jan-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES_SMD_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES_SMD_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R1W - 100"; VariantName = "[No Variations]"
+Added Component: Designator=SW?(SW-2P-S)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SPST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "24-Mar-1999"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=U1(LM1117-Hole)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Category"; Value = "IC-Power"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Input Voltage"; Value = "12 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Output Current"; Value = "3 (6.0 peak) A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Output Voltage"; Value = "mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Input Voltage"; Value = "mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Output Voltage"; Value = "mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerICTypes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Status"; Value = "Unreleased"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage"; Value = "mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range"; Value = "-40 to +125 degC"; VariantName = "[No Variations]"
+Added Component: Designator=X?(XT2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "4Mhz"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=Cin1-2
+Added Pin To Net: NetName=GND Pin=Cout1-1
+Added Pin To Net: NetName=+5 Pin=Cout1-2
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=NetIC1_1 Pin=IC?-2
+Added Pin To Net: NetName=NetIC1_2 Pin=IC?-3
+Added Pin To Net: NetName=NetIC1_3 Pin=IC?-4
+Added Pin To Net: NetName=NetIC1_4 Pin=IC?-5
+Added Pin To Net: NetName=NetIC1_5 Pin=IC?-6
+Added Pin To Net: NetName=NetIC1_6 Pin=IC?-7
+Added Pin To Net: NetName=NetIC1_7 Pin=IC?-8
+Added Pin To Net: NetName=+5 Pin=IC?-31
+Added Pin To Net: NetName=+5 Pin=IC?-40
+Added Pin To Net: NetName=GND Pin=JDC1-2
+Added Pin To Net: NetName=GND Pin=JDC1-3
+Added Pin To Net: NetName=+5 Pin=L2-2
+Added Pin To Net: NetName=D3 Pin=L?-6
+Added Pin To Net: NetName=+5 Pin=L?-7
+Added Pin To Net: NetName=GND Pin=L?-8
+Added Pin To Net: NetName=D2 Pin=L?-10
+Added Pin To Net: NetName=D1 Pin=L?-11
+Added Pin To Net: NetName=D0 Pin=L?-14
+Added Pin To Net: NetName=D0 Pin=M?-2
+Added Pin To Net: NetName=GND Pin=M?-4
+Added Pin To Net: NetName=D2 Pin=M?-6
+Added Pin To Net: NetName=D3 Pin=M?-7
+Added Pin To Net: NetName=GND Pin=M?-9
+Added Pin To Net: NetName=D1 Pin=M?-11
+Added Pin To Net: NetName=+5 Pin=M?-19
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=+5 Pin=R?-2
+Added Pin To Net: NetName=+5 Pin=SW?-2
+Added Pin To Net: NetName=GND Pin=U1-3
+Change Net Name : Old Net Name=NetIC1_1 New Net Name=NetIC?_2
+Change Net Name : Old Net Name=NetIC1_2 New Net Name=NetIC?_3
+Change Net Name : Old Net Name=NetIC1_3 New Net Name=NetIC?_4
+Change Net Name : Old Net Name=NetIC1_4 New Net Name=NetIC?_5
+Change Net Name : Old Net Name=NetIC1_5 New Net Name=NetIC?_6
+Change Net Name : Old Net Name=NetIC1_6 New Net Name=NetIC?_7
+Change Net Name : Old Net Name=NetIC1_7 New Net Name=NetIC?_8
+Change Net Name : Old Net Name=NetIC1_8 New Net Name=NetSW10_2
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=IC?-18
+Added Pin To Net: NetName=NetC?_2 Pin=X?-2
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=NetCin1_1 Pin=Cin1-1
+Added Pin To Net: NetName=NetCin1_1 Pin=JDC1-1
+Added Pin To Net: NetName=NetCin1_1 Pin=U1-1
+Added Net: Name=NetCin1_1
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=L2-1
+Added Pin To Net: NetName=NetD1_1 Pin=U1-2
+Added Pin To Net: NetName=NetD1_1 Pin=U1-2
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetIC?_1 Pin=IC?-1
+Added Net: Name=NetIC?_1
+Added Pin To Net: NetName=NetIC?_9 Pin=IC?-9
+Added Pin To Net: NetName=NetIC?_9 Pin=R?-2
+Added Pin To Net: NetName=NetIC?_9 Pin=SW?-1
+Added Net: Name=NetIC?_9
+Added Pin To Net: NetName=NetIC?_22 Pin=IC?-22
+Added Pin To Net: NetName=NetIC?_22 Pin=M?-13
+Added Net: Name=NetIC?_22
+Added Pin To Net: NetName=NetIC?_23 Pin=IC?-23
+Added Pin To Net: NetName=NetIC?_23 Pin=M?-1
+Added Net: Name=NetIC?_23
+Added Pin To Net: NetName=NetIC?_24 Pin=IC?-24
+Added Pin To Net: NetName=NetIC?_24 Pin=M?-12
+Added Net: Name=NetIC?_24
+Added Pin To Net: NetName=NetL?_1 Pin=L?-1
+Added Pin To Net: NetName=NetL?_1 Pin=M?-21
+Added Net: Name=NetL?_1
+Added Pin To Net: NetName=NetL?_2 Pin=L?-2
+Added Pin To Net: NetName=NetL?_2 Pin=M?-23
+Added Net: Name=NetL?_2
+Added Pin To Net: NetName=NetL?_3 Pin=L?-3
+Added Pin To Net: NetName=NetL?_3 Pin=M?-22
+Added Net: Name=NetL?_3
+Added Pin To Net: NetName=NetL?_4 Pin=L?-4
+Added Pin To Net: NetName=NetL?_4 Pin=M?-20
+Added Net: Name=NetL?_4
+Added Pin To Net: NetName=NetL?_5 Pin=L?-5
+Added Pin To Net: NetName=NetL?_5 Pin=M?-17
+Added Net: Name=NetL?_5
+Added Pin To Net: NetName=NetL?_9 Pin=L?-9
+Added Pin To Net: NetName=NetL?_9 Pin=M?-16
+Added Net: Name=NetL?_9
+Added Pin To Net: NetName=NetL?_12 Pin=L?-12
+Added Pin To Net: NetName=NetL?_12 Pin=M?-15
+Added Net: Name=NetL?_12
+Added Pin To Net: NetName=NetL?_13 Pin=L?-13
+Added Pin To Net: NetName=NetL?_13 Pin=M?-14
+Added Net: Name=NetL?_13
+Added Pin To Net: NetName=NetM?_18 Pin=M?-18
+Added Pin To Net: NetName=NetM?_18 Pin=R?-1
+Added Net: Name=NetM?_18
+Added Class: Name=5
+Added Member To Class: ClassName=2 Member=Component C? 22pF
+Added Member To Class: ClassName=2 Member=Component C? 22pF
+Added Member To Class: ClassName=2 Member=Component IC? AT89C52
+Added Member To Class: ClassName=3 Member=Component L? Led 7 Seg 4 digit - Anode
+Added Member To Class: ClassName=3 Member=Component M? MAX7219ENG
+Added Member To Class: ClassName=2 Member=Component R? 10k
+Added Member To Class: ClassName=3 Member=Component R? 10k
+Added Member To Class: ClassName=2 Member=Component SW? SW-2P-S
+Added Member To Class: ClassName=2 Member=Component X? 12Mhz
+Added Room: Name=2
+Added Room: Name=3
+Added Room: Name=4
+Added Room: Name=5

@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=SW1 Old Footprint=SW-2P-S New Footprint=SW-SMD
+Added Room: Name=2
+Added Room: Name=3
+Added Room: Name=4
+Added Room: Name=5
