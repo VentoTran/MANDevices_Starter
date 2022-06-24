@@ -1,4 +1,4 @@
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    06/24/2022  17:55:34  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    06/24/2022  23:50:36  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
@@ -28,9 +28,9 @@ LINK MAP OF MODULE:  .\Objects\Led7seg (MAIN)
             * * * * * * *   C O D E   M E M O R Y   * * * * * * *
             CODE    0000H     0003H     ABSOLUTE     
             CODE    0003H     008CH     UNIT         ?C_C51STARTUP
-            CODE    008FH     0056H     UNIT         ?PR?MAIN?MAIN
-            CODE    00E5H     002DH     UNIT         ?PR?_DELAY?MAIN
-            CODE    0112H     000DH     UNIT         ?C_INITSEG
+            CODE    008FH     0068H     UNIT         ?PR?MAIN?MAIN
+            CODE    00F7H     0020H     UNIT         ?PR?_DELAY?MAIN
+            CODE    0117H     000DH     UNIT         ?C_INITSEG
 
 
 
@@ -59,28 +59,26 @@ SYMBOL TABLE OF MODULE:  .\Objects\Led7seg (MAIN)
   D:00A0H         PUBLIC        P2
   D:00B0H         PUBLIC        P3
   D:0008H         PUBLIC        Led7seg
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  06/24/2022  17:55:34  PAGE 2
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  06/24/2022  23:50:36  PAGE 2
 
 
-  C:00F2H         PUBLIC        _delay
+  C:00F7H         PUBLIC        _delay
   C:008FH         PUBLIC        main
   B:00B0H.1       PUBLIC        BtnDe
   B:00B0H.0       PUBLIC        BtnIn
-  -------         PROC          L?0021
-  -------         ENDPROC       L?0021
   -------         PROC          _DELAY
   D:0006H         SYMBOL        time
   -------         DO            
   D:0004H         SYMBOL        i
   D:0002H         SYMBOL        j
   -------         ENDDO         
-  C:00F2H         LINE#         5
-  C:00F2H         LINE#         6
-  C:00F2H         LINE#         8
-  C:00FCH         LINE#         9
-  C:00FCH         LINE#         10
-  C:010AH         LINE#         11
-  C:0111H         LINE#         12
+  C:00F7H         LINE#         5
+  C:00F7H         LINE#         6
+  C:00F7H         LINE#         8
+  C:0101H         LINE#         9
+  C:0101H         LINE#         10
+  C:010FH         LINE#         11
+  C:0116H         LINE#         12
   -------         ENDPROC       _DELAY
   -------         PROC          MAIN
   -------         DO            
@@ -100,20 +98,19 @@ SYMBOL TABLE OF MODULE:  .\Objects\Led7seg (MAIN)
   C:00A7H         LINE#         27
   C:00A8H         LINE#         28
   C:00BAH         LINE#         29
-  C:00BAH         LINE#         30
-  C:00BDH         LINE#         31
-  C:00BFH         LINE#         32
-  C:00BFH         LINE#         33
-  C:00BFH         LINE#         34
-  C:00C2H         LINE#         35
-  C:00C9H         LINE#         36
-  C:00CCH         LINE#         37
-  C:00D4H         LINE#         38
-  C:00E0H         LINE#         39
-  C:00E0H         LINE#         40
-  C:00E3H         LINE#         41
+  C:00C3H         LINE#         30
+  C:00C8H         LINE#         31
+  C:00C8H         LINE#         32
+  C:00C8H         LINE#         33
+  C:00C8H         LINE#         34
+  C:00CBH         LINE#         35
+  C:00D2H         LINE#         36
+  C:00D5H         LINE#         37
+  C:00DDH         LINE#         38
+  C:00E9H         LINE#         39
+  C:00F2H         LINE#         40
   -------         ENDPROC       MAIN
   -------         ENDMOD        MAIN
 
-Program Size: data=19.0 xdata=0 code=287
+Program Size: data=19.0 xdata=0 code=292
 LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
