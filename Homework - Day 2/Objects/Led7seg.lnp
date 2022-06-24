@@ -1,0 +1,3 @@
+".\Objects\main.obj" 
+TO ".\Objects\Led7seg" 
+PRINT(".\Listings\Led7seg.m51") RAMSIZE(256) 
