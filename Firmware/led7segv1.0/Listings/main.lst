@@ -1,4 +1,4 @@
-C51 COMPILER V9.60.0.0   MAIN                                                              06/22/2022 17:33:24 PAGE 1   
+C51 COMPILER V9.60.0.0   MAIN                                                              06/24/2022 18:21:13 PAGE 1   
 
 
 C51 COMPILER V9.60.0.0, COMPILATION OF MODULE MAIN
@@ -15,32 +15,37 @@ line level    source
    5          */
    6          #include <REGX51.H>
    7          #include <..\lib\Delay.h>
-   8          #define BTN P2_0
-   9          
-  10          unsigned char  i  = 0 ;
-  11          unsigned char  code_7seg[10] = {0xC0, 0xF9, 0xA4, 0xB0, 0x99, 0x92, 0x82, 0xF8, 0x80, 0x90};
-  12          
-  13          void main ()
-  14          {
-  15   1         
+   8          #define TANG P2_0
+   9          #define GIAM P2_1
+  10          
+  11          unsigned char  i  = 0 ;
+  12          unsigned char  code_7seg[10] = {0xC0, 0xF9, 0xA4, 0xB0, 0x99, 0x92, 0x82, 0xF8, 0x80, 0x90};
+  13          
+  14          void main ()
+  15          {  
   16   1         while (1)
-  17   1         { if (BTN == 0)
+  17   1         { if ( TANG == 0 && GIAM == 1 )
   18   2               {  
   19   3                  i++;
   20   3                  if (i==10) i=0;
   21   3                  P3 = code_7seg[i];
-  22   3                   while (BTN == 0) ; //chong hien tuong dinh phim
+  22   3                   while ( TANG == 0) ; //chong hien tuong dinh phim
   23   3               }
-  24   2         }
-  25   1         
-  26   1          
-  27   1      
-  28   1      
-  29   1      }
+  24   2            else if ( TANG == 1 && GIAM == 0 )
+  25   2               {
+  26   3                  i--;
+  27   3                  if (i==0) i=9;
+  28   3                  P3 = code_7seg[i];
+  29   3                  while (GIAM == 0) ; //chong hien tuong dinh phim
+  30   3                             
+  31   3               }
+  32   2            else {}
+  33   2         }
+  34   1      }
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =     26    ----
+   CODE SIZE        =     57    ----
    CONSTANT SIZE    =   ----    ----
    XDATA SIZE       =   ----    ----
    PDATA SIZE       =   ----    ----
