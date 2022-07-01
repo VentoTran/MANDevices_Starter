@@ -1,0 +1,71 @@
+C51 COMPILER V9.60.0.0   7SEG_MAIN                                                         06/25/2022 08:36:33 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE 7SEG_MAIN
+OBJECT MODULE PLACED IN .\Objects\7seg_main.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE 7seg_main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings
+                    -\7seg_main.lst) TABS(2) OBJECT(.\Objects\7seg_main.obj)
+
+line level    source
+
+   1          #include <REGX51.H>
+   2          #define but1 P1_0
+   3          #define but2 P1_5
+   4          
+   5          void delay(unsigned int time)
+   6          {
+   7   1        unsigned int i,j;
+   8   1        for(i=0;i<time;i++)
+   9   1        {
+  10   2          for(j=0;j<125;j++);
+  11   2        }
+  12   1      }
+  13          
+  14          
+  15          
+  16          void main()
+  17          {
+  18   1        char  so[11]= {0x40,0x79,0x24,0x30,0x19,0x12,0x02,0x78,0x00,0x10};
+  19   1        int i=0;
+  20   1        while(1)
+  21   1        {
+  22   2          //tang khi nhan but 1
+  23   2          if (but1==0)
+  24   2          {
+  25   3            P2=so[i+1];
+  26   3            i++;
+  27   3            delay(500);
+  28   3            if(i>8){i=-1;}
+  29   3          }
+  30   2          
+  31   2      
+  32   2          //giam khi nhan but2
+  33   2          if (but2==0)
+  34   2          { 
+  35   3            P2=so[i-1];
+  36   3            i--;
+  37   3            delay(500);
+  38   3            if(i<1){i=10;}
+  39   3          
+  40   3          }
+  41   2          
+  42   2      
+  43   2        }
+  44   1        
+  45   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    138    ----
+   CONSTANT SIZE    =     11    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----      11
+   IDATA SIZE       =   ----    ----
+C51 COMPILER V9.60.0.0   7SEG_MAIN                                                         06/25/2022 08:36:33 PAGE 2   
+
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
