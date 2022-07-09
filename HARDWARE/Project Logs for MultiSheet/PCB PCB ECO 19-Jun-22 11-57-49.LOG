@@ -1,0 +1,35 @@
+Added Component: Designator=M1(DIP24/W0.3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-001-AF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.maxim-ic.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://pdfserv.maxim-ic.com/en/ds/MAX7219-MAX7221.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jul-1997"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Component Body Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "DIP, 24-Pin, Row Spacing 7.62 mm, Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "NG24A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "1997"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "16-Jan-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetIC1_23 Pin=M1-1
+Added Pin To Net: NetName=D0 Pin=M1-2
+Added Pin To Net: NetName=GND Pin=M1-4
+Added Pin To Net: NetName=D2 Pin=M1-6
+Added Pin To Net: NetName=D3 Pin=M1-7
+Added Pin To Net: NetName=GND Pin=M1-9
+Added Pin To Net: NetName=D1 Pin=M1-11
+Added Pin To Net: NetName=NetIC1_22 Pin=M1-12
+Added Pin To Net: NetName=NetIC1_21 Pin=M1-13
+Added Pin To Net: NetName=NetL1_13 Pin=M1-14
+Added Pin To Net: NetName=NetL1_12 Pin=M1-15
+Added Pin To Net: NetName=NetL1_9 Pin=M1-16
+Added Pin To Net: NetName=NetL1_5 Pin=M1-17
+Added Pin To Net: NetName=NetM1_18 Pin=M1-18
+Added Pin To Net: NetName=5V Pin=M1-19
+Added Pin To Net: NetName=NetL1_4 Pin=M1-20
+Added Pin To Net: NetName=NetL1_1 Pin=M1-21
+Added Pin To Net: NetName=NetL1_3 Pin=M1-22
+Added Pin To Net: NetName=NetL1_2 Pin=M1-23
+Added Member To Class: ClassName=2 Member=Component M1 MAX7219ENG
